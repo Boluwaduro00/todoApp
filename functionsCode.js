@@ -5,5 +5,5 @@ function addNewItem(list){
 }
 
 function deleteItem(list){
-
+    delete list[0];
 }
